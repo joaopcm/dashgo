@@ -21,7 +21,7 @@ export default function CreateUser() {
         <Sidebar />
 
         <Box flex="1" borderRadius="8" bg="gray.800" p="8">
-          <Heading size="lg" fontweight="normal">
+          <Heading size="lg" fontWeight="normal">
             Create user
           </Heading>
 
