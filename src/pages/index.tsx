@@ -14,10 +14,7 @@ const signInFormSchema = yup.object().shape({
     .string()
     .required("Email address is required")
     .email("Invalid email address"),
-  password: yup
-    .string()
-    .required("Password is required")
-    .min(8, "Password must have at least 8 characters"),
+  password: yup.string().required("Password is required"),
 });
 
 export default function SignIn() {
